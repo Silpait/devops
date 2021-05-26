@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ksapp</groupId>
-	<artifactId>ks</artifactId>
+	<artifactId>Silpa</artifactId>
 	<version>1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
@@ -47,8 +47,8 @@
 	<distributionManagement>
     <snapshotRepository>
 	    <id>deployment</id>
-        <name>snapshot releases</name>
-        <url>http://10.128.15.193:8081/repository/maven-snapshots/</url>
+        <name>snapshot</name>
+        <url>http://10.128.0.24:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	</distributionManagement>
 		
